@@ -57,10 +57,6 @@ public class WinLogWiniumTestCase {
         assertTrue(last12hour.isDisplayed());
         last12hour.click();
 
-        //Check "Error" flag
-        WebElement errorFlag = driver.findElement(By.name("Error"));
-        errorFlag.click();
-
         //Press refresh button
         WebElement refreshButton = driver.findElement(By.name("Refresh"));
         assertTrue(refreshButton.isDisplayed());
